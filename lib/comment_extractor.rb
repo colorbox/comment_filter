@@ -1,5 +1,8 @@
-require "comment_extractor/version"
+require 'comment_extractor/version'
+require 'parser/current'
 
 module CommentExtractor
-  # Your code goes here...
+  def self.extract(code)
+    Parser::CurrentRuby.parse_with_comments(code)[1..-1]
+  end
 end
