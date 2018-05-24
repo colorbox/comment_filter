@@ -8,7 +8,6 @@ def hoge
   pp"this is test"
 end
     FOO
-    pp
-    assert_equal('# this is comment',CommentExtractor.extract(code)[0][0].text)
+    assert_equal('# this is comment',CommentExtractor.extract(code)[0].text)
   end
 end

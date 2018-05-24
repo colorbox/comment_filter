@@ -3,6 +3,6 @@ require 'parser/current'
 
 module CommentExtractor
   def self.extract(code)
-    Parser::CurrentRuby.parse_with_comments(code)[1..-1]
+    Parser::CurrentRuby.parse_with_comments(code)[-1]
   end
 end
