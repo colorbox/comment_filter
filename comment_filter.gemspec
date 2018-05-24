@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "comment_extractor/version"
+require "comment_filter/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "comment_extractor"
-  spec.version       = CommentExtractor::VERSION
+  spec.name          = "comment_filter"
+  spec.version       = CommentFilter::VERSION
   spec.authors       = ["colorbox"]
   spec.email         = ["colorbox222@gmail.com"]
 

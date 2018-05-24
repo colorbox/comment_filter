@@ -1,4 +1,4 @@
-# CommentExtractor
+# CommentFilter
 
 you can extract comments from your ruby code with this gem. 
 
@@ -8,7 +8,7 @@ you can extract comments from your ruby code with this gem.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'comment_extractor'
+gem 'comment_filter'
 ```
 
 And then execute:
@@ -17,7 +17,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install comment_extractor
+    $ gem install comment_filter
 
 ## Usage
 
@@ -29,7 +29,7 @@ def hoge
 end
 FOO
 
-CommentExtractor.extract(code)[0].text
+CommentFilter.extract(code)[0].text
 => "# this is comment"
 
 ```
@@ -43,7 +43,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/comment_extractor. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/comment_filter. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -51,4 +51,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the CommentExtractor project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/comment_extractor/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the CommentFilter project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/comment_filter/blob/master/CODE_OF_CONDUCT.md).
